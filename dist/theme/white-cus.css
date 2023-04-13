@@ -82,6 +82,20 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
     background-repeat: no-repeat;
 }
 
+.reveal .qrcode {
+  position: fixed;
+  display: block;
+  right: 1%;
+  bottom: 1%;
+  z-index: 30;
+  width: 15%;
+  height: 40%;
+  background-image: url("./qr.png");
+  background-size: 100%;
+  background-position: 0% 90%;
+  background-repeat: no-repeat;
+}
+
 /*********************************************
  * HEADERS
  *********************************************/
